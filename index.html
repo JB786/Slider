@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Using CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <input type="radio" name="Slide" id="one" checked>
+        <input type="radio" name="Slide" id="two">
+        <input type="radio" name="Slide" id="three">
+        <input type="radio" name="Slide" id="four">
+        <input type="radio" name="Slide" id="five">
+
+        <div class="img img-1">
+            <img src="https://images.unsplash.com/photo-1506886009355-7f3af05dd5d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                alt="Please Wait..">
+        </div>
+        <div class="img img-2">
+            <img src="https://images.unsplash.com/photo-1529135942918-ca55bb398f40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                alt="Please Wait..">
+        </div>
+        <div class="img img-3">
+            <img src="https://images.unsplash.com/photo-1626270732473-54ff3d1cf636?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                alt="Please Wait..">
+        </div>
+        <div class="img img-4">
+            <img src="https://images.unsplash.com/photo-1524473994769-c1bbbf30e944?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                alt="Please Wait..">
+        </div>
+        <div class="img img-5">
+            <img src="https://images.unsplash.com/photo-1599833975787-5c143f373c30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80"
+                alt="Please Wait..">
+        </div>
+
+
+        <div class="sliders">
+            <label for="one" class="one"></label>
+            <label for="two" class="two"></label>
+            <label for="three" class="three"></label>
+            <label for="four" class="four"></label>
+            <label for="five" class="five"></label>
+        </div>
+
+        <div id="prev">
+            <button class="btn" onclick="prev()">❮</button>
+        </div>
+        <div id="next">
+            <button class="btn" onclick="nextButton()">❯</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
